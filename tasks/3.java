@@ -1,4 +1,4 @@
-1)
+//1)
 public class Main {
     public static void main(String[] args){
         byte a = 123;
@@ -11,18 +11,18 @@ public class Main {
         boolean h = false;
     }
 }
-2)
+//2)
 public class Main {
     public static void main(String[] args){
         System.out.println("\u0414\u0438\u043C\u0430");
     }
 }
-3)
-java: cannot find symbol
-  symbol:   variable b
-  location: class Main
-b хранит свое значение только внутри скобок
-4)
+//3)
+// java: cannot find symbol
+//   symbol:   variable b
+//   location: class Main
+// b хранит свое значение только внутри скобок
+//4)
 public class Main {
     public static void main(String[] args){
         String a = "darova";
@@ -30,7 +30,7 @@ public class Main {
         System.out.println(a+b);
     }
 }
-5)
+//5)
 public class Main {
     public static void main(String[] args){
         byte a = 1;
@@ -39,18 +39,18 @@ public class Main {
         System.out.println(c);
     }
 }
-ну все нормально работает не знаю что тут объяснять a переконвертировалось в int
-6)
+// ну все нормально работает не знаю что тут объяснять a переконвертировалось в int
+//6)
 int i = 100;
 byte b = (byte) i;
 
 double a = 0.1231;
 float b = (float)a;
-7)
-b - ошибка тк не конвертировали 
-c = -126 тк вышли за границу применения byte
-d - ошибка тк не конвертировали 
-8)
+//7)
+// b - ошибка тк не конвертировали 
+// c = -126 тк вышли за границу применения byte
+// d - ошибка тк не конвертировали 
+//8)
 public class Main {
     public static void main(String[] args){
         var text = "Привет";           // String
